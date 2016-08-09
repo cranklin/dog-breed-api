@@ -2,7 +2,8 @@ Sample Flask Application - Dog Breed API
 ========================================
 
 To install:
-
+-----------
+`
 (set up a virtual environment)
 > virtualenv venv
 > . venv/bin/activate
@@ -12,13 +13,14 @@ To install:
 > nosetests --with-coverage --cover-package=dogbreed
 (start flask server)
 > ./run.py
-
+`
 
 
 
 
 A successful test run should yield:
-
+-----------------------------------
+`
 ....................
 Name                      Stmts   Miss  Cover   Missing
 -------------------------------------------------------
@@ -35,4 +37,4 @@ TOTAL                       172     21    88%
 Ran 20 tests in 0.998s
 
 OK
-
+`
