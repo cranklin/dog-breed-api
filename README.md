@@ -1,5 +1,29 @@
 Sample Flask Application - Dog Breed API
 ========================================
+This application is used as my demonstration for:
+<a href="https://cranklin.wordpress.com/2016/08/09/testing-the-right-way/">Testing The Right Way</a>
+
+
+Description:
+------------
+List all of the available dog pictures grouped by breed
+List all of the available dog pictures of a particular breed
+Vote up and down a dog picture
+The details associated with a dog picture
+The information the Dog Breed App needs to function is:
+
+A URL to a dog picture
+The number of time the picture was favorited
+The dog's breed
+Any other information required to identify a specific dog
+The Dog Breed App expects the response to be sorted by the number of times the picture was favorited. The pictures may be sorted
+
+The API responses must be in JSON.
+
+Additional Voting Requirements
+
+Each client is allowed to vote once for any particular dog picture.
+
 
 To install:
 -----------
