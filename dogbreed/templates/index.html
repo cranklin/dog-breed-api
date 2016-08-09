@@ -1,0 +1,14 @@
+<h1>Dog Breed API:</h1>
+
+{% for endpoint in endpoints %}
+<br /><br />
+<h2><b>Title : </b>{{endpoint.title}}</h2>
+<b>URL : </b>{{endpoint.url}}<br />
+<b>Method : </b>{{endpoint.method}}<br />
+<b>URL Params : </b>{{endpoint.url_params}}<br />
+<b>Data Params : </b>{{endpoint.data_params}}<br />
+<b>Success Response : </b> <pre><code>{{endpoint.success_response}}</code></pre><br />
+<b>Error Response : </b> <pre><code>{{endpoint.error_response}}</code></pre><br />
+<b>Sample Call: </b> {{endpoint.sample_call}}<br />
+<b>Notes: </b> {{endpoint.notes}}<br /><br />
+{% endfor %}

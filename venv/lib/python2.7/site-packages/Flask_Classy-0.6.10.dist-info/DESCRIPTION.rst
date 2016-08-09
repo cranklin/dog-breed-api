@@ -1,0 +1,6 @@
+Flask-Classy
+-------------
+
+Class based views for Flask
+
+
